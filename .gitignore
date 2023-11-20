@@ -1,8 +1,10 @@
 HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
+**/target
+**/mvnw
+**/mvnw.cmd
+!**/.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
-!**/src/test/**/target/
+!**/src/test/**/target/git
 
 ### STS ###
 .apt_generated
@@ -34,3 +36,8 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Project ###
+.mvn
+mvnw
+mvnw.cmd
